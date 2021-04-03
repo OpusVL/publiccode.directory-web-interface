@@ -1,7 +1,8 @@
 .DS_Store
 node_modules
 /dist
-
+**/node_modules/*
+node_modules/*
 # local env files
 .env.local
 .env.*.local
@@ -20,3 +21,12 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
+
+config
+data
+accounts
+config
+themes/quark/
+**package-lock.json
+themes/public-code-directory/package-lock.json
+config.codekit3
